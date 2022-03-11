@@ -2,3 +2,26 @@ h1 {
     color: rgb(226, 19, 70);
     margin-left: 20px;
   }
+
+ /* *{
+     background-color: rgb(235, 235, 235);
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }  */
+
+.grey{
+     background-color: rgb(233, 233, 233);
+     color: rgb(105, 61, 61);
+ }
+
+ table, th, td{
+     position: relative;
+     border: 3px solid;
+     border-style: dashed;
+     border-color: black;
+     ali
+ }
+
+tr {
+    border-style: dashed;
+    border-color: black;
+}
