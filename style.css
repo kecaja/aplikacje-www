@@ -26,4 +26,39 @@ tr {
     border-color: black;
 }
 
-.
+.flex_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.flex_item{
+    width: 200px;
+    text-align: left;
+    /* flex: 100px; */
+    /* margin-left: auto; */
+}
+
+.hidden{
+    display: none;
+    position: absolute;
+    padding: 10px;
+}
+.flex_item:hover .hidden{
+    display: block;
+}
+
+.produkt_list{
+    padding: 10px;
+}
+
+/* .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+} */
+/* 
+footer{
+    background-color: black;
+    padding: 30px;
+} */

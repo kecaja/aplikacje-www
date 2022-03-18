@@ -6,38 +6,59 @@
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
-      <h1>Lista produktów</h1>
-      <table>
-         <tr class="grey">
-            <th>Nazwa produktu</th>
-            <th>Zdjęcie produktu</th>
-            <th>Opis</th>
-            <th>Cena</th>
-            <th>Czas trwania</th>
-         </tr>
-         <section>
-         <tr>
-            <td><a href='produkt.html'>Analiza mikromacierzy DNA</a></td>
-            <td><img src='dna.png' alt='Analiza mikromacierzy DNA'></td>
-            <td>Techniki analizy mikromacierzy są wykorzystywane do interpretacji danych generowanych z eksperymentów na DNA (analiza chipów genowych), co pozwala badać stan ekspresji dużej liczby genów w jednym eksperymencie.</td>
-            <td>10000 zł</td>
-            <td>2 dni</td>
-         </tr>
-         </section> 
-         <tr class="grey">
-            <td>Rekonstrukcja drzew filogenetycznych</td>
-            <td><img src='filo.png' alt='Rekonstrukcja drzew filogenetycznych'></td>
-            <td>Rekonstrukcja filogenezy przydaje się do wyjaśniania ewolucji danej grupy organizmów, pokazania kolejnych etapów jej różnicowania się lub uzyskiwania określonych adaptacji.</td>
-            <td>2000 zł</td>
-            <td>20 h</td>
-         </tr>
-         <tr>
-            <td>Budowa sieci interacji białek</td>
-            <td><img src='siec.png' alt='Budowa sieci interacji białek'></td>
-            <td>Interakcje białko-białko (PPI) są niezbędne w prawie każdym procesie w komórce, więc zrozumienie PPI ma kluczowe znaczenie dla zrozumienia fizjologii komórki w stanach normalnych i chorobowych.</td>
-            <td>3000 zł</td>
-            <td>1 dzień</td>
-         </tr>
-      </table>
+      <!-- <div class="wrapper"> -->
+         <ul class="flex_container">
+            <li class="flex_item">O nas</li>
+            <li class="flex_item_to_show">Produkty
+               <ul class="hidden">
+                  <il class="produkt_list">Produkt 1</il>
+                  <il class="produkt_list">Produkt 2</il>
+                  <il class="produkt_list">Produkt 2</il>
+               </ul>
+            </li>
+            <li class="flex_item">Kontakt</li>
+         </ul>
+         </div>
+         <h1>Lista produktów</h1>
+         <table>
+            <tr class="grey">
+               <th>Nazwa produktu</th>
+               <th>Zdjęcie produktu</th>
+               <th>Opis</th>
+               <th>Cena</th>
+               <th>Czas trwania</th>
+            </tr>
+            <section>
+            <tr>
+               <td><a href='produkt.html'>Analiza mikromacierzy DNA</a></td>
+               <td><img src='dna.png' alt='Analiza mikromacierzy DNA'></td>
+               <td>Techniki analizy mikromacierzy są wykorzystywane do interpretacji danych generowanych z eksperymentów na DNA (analiza chipów genowych), co pozwala badać stan ekspresji dużej liczby genów w jednym eksperymencie.</td>
+               <td>10000 zł</td>
+               <td>2 dni</td>
+            </tr>
+            </section> 
+            <tr class="grey">
+               <td>Rekonstrukcja drzew filogenetycznych</td>
+               <td><img src='filo.png' alt='Rekonstrukcja drzew filogenetycznych'></td>
+               <td>Rekonstrukcja filogenezy przydaje się do wyjaśniania ewolucji danej grupy organizmów, pokazania kolejnych etapów jej różnicowania się lub uzyskiwania określonych adaptacji.</td>
+               <td>2000 zł</td>
+               <td>20 h</td>
+            </tr>
+            <tr>
+               <td>Budowa sieci interacji białek</td>
+               <td><img src='siec.png' alt='Budowa sieci interacji białek'></td>
+               <td>Interakcje białko-białko (PPI) są niezbędne w prawie każdym procesie w komórce, więc zrozumienie PPI ma kluczowe znaczenie dla zrozumienia fizjologii komórki w stanach normalnych i chorobowych.</td>
+               <td>3000 zł</td>
+               <td>1 dzień</td>
+            </tr>
+         </table>
+         <footer>
+            tekst
+
+
+
+         </footer>
+      <!-- </div>
+   </div> -->
    </body>
 </html>
