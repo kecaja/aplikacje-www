@@ -29,6 +29,8 @@
 
 
         </style>
+
+
     </head>
 <body>
     <div class="container">
@@ -122,7 +124,11 @@
                             </tbody>
                             </table>
                         </div>
-
+                        <div class="d-grid gap-2">
+                            <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                            <button class="btn btn-primary" type="button" onclick="promptFunction()">Zamów</button>
+                            
+                          </div>
 
 
 
@@ -136,6 +142,9 @@
 
 
 
+
+
+
     <div class="row">
         <div class="col">
           Footer
@@ -144,4 +153,14 @@
   </div>
 
 
+
+  <script>
+    function promptFunction() {
+      let quantity = prompt("Podaj ilość (Czas oczekiwania 24h)", "1");
+
+    }
+    </script>
+
+
 </body>
+</html>
